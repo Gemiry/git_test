@@ -1,0 +1,26 @@
+常见js库：
+	jQuery
+	prototype.js
+	extjs
+	mooltools
+	dojo
+	.........
+
+jQuery : http://www.jquery.com
+
+优点：
+	轻量级
+	方便的 DOM 操作
+	事件处理
+	ajax
+	运动
+	CSS
+	链式编程
+	丰富的插件
+	兼容问题解决
+	......
+
+版本：
+	1.x.x -- PC
+	2.x.x
+	3.x.x 

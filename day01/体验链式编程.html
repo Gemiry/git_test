@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		* {margin:0; padding:0;}
+		ul {list-style:none; position:relative; top: 100px; left:100px;}
+		li {width:150px; height:30px; line-height:30px; background:red; color:white;}
+		li div{width:500px; height: 120px; position:absolute; top: 0; left: 150px; color:black; display:none; border:1px solid;}
+		.active {background:white; color:red;}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("li").mouseenter(function(){
+				$(this).find("div").show().end().addClass("active").siblings().removeClass("active");
+			});
+		});
+	</script>
+</head>
+<body>
+	<ul>
+		<li>
+			<span>一级导航标题1</span>
+			<div>二级导航超级链接1111111</div>
+		</li>
+		<li>
+			<span>一级导航标题2</span>
+			<div>二级导航超级链接2222222</div>
+		</li>
+		<li>
+			<span>一级导航标题3</span>
+			<div>二级导航超级链接3333333</div>
+		</li>
+		<li>
+			<span>一级导航标题4</span>
+			<div>二级导航超级链接4444444</div>
+		</li>
+	</ul>
+</body>
+</html>	
